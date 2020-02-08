@@ -1,0 +1,6 @@
+static libs: ar -c libstatic.a
+
+using a static lib: gcc -g -o prog prog.o libstatic.a
+
+using a shared lib: gcc -g -fPIC -Wall -Werror -Wextra -pedantic *.c -shared -o libshared.so 
+

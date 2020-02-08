@@ -1,0 +1,6 @@
+Memory management in C/C++
+
+malloc
+calloc
+realloc
+free
